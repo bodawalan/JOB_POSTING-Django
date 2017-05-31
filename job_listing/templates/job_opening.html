@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<br>
+<br>
+<br>
+
+<h1>{{filter_view}}</h1>
+
+<br>
+<br>
+<br>
+
+<div class="container">
+<table class="table">
+    <thead>
+      <tr>
+        <th>Titile</th>
+        <th>Number_of_position</th>
+          <th> level</th>
+        <th>posting_date</th>
+
+          <th>description</th>
+
+
+      </tr>
+    </thead>
+<tbody>
+{% for data in name %}
+<tr>
+    <td>
+        {{data.title}}
+    </td>
+    <td>{{data.number_of_position}}</td>
+    <td>{{data.level}}</td>
+    <td> {{data.posting_date}}</td>
+    <td> {{data.desciption}}</td>
+
+
+</tr>
+
+</tbody>
+    {% endfor %}
+
+</table>
+</div>
+{% endblock %}

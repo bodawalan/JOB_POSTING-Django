@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class ='row'>
+
+<div class ='col-sm-6 col-sm-offset-3'>
+ <form  action="" method="POST" class="form-group" role="search">
+{{name1|crispy}}{% csrf_token %}
+<button type="submit" name="formcomplete" class="btn btn-default" href="{% url 'job_opening' %}">Submit</button>
+ </form>
+</div>
+</div>
+
+{% endblock %}

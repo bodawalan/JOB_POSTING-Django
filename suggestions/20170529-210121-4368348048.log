@@ -1,0 +1,21 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: My subject:Password Reset E-mail
+From: webmaster@localhost
+To: nishitbodawala@gmail.com
+Date: Mon, 29 May 2017 21:01:21 -0000
+Message-ID: <20170529210121.1576.43587@nishits-macbook-pro.local>
+
+Hello from example.com!
+
+You're receiving this e-mail because you or someone else has requested a password for your user account.
+It can be safely ignored if you did not request a password reset. Click the link below to reset your password.
+
+http://127.0.0.1:8000/accounts/password/reset/key/1-4mg-10ac8c3012784285fff3/
+
+In case you forgot, your username is admin.
+
+Thank you for using example.com!
+example.com
+-------------------------------------------------------------------------------
